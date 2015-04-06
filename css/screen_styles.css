@@ -25,3 +25,23 @@ a { color: #de9000; }
 a:hover { color: #009eff; }
 
 footer { font-size: .85em; color: #9ba0bd; background-color: #575c7a; padding: 10px 10px 10px 0px; }
+
+.cta {
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: bold;
+    text-decoration: none;
+    margin: .5em 0 0 0;
+    padding: 0px 12px 0px 0px;
+    background: url(../images/cta_arrow.png) no-repeat right 0px;
+}
+
+.cta:hover { background-position: right -50px; }
+
+.promo h3 { font-size: 1.1em; margin: 0; }
+.promo p { line-height: 1.2em; font-size: .9em; margin-bottom: .5em; }
+
+.promo { background-repeat: no-repeat; }
+.promo.one { background-image: url(../images/promo_1.jpg); }
+.promo.two { background-image: url(../images/promo_2.jpg); }
+.promo.three { background-image: url(../images/promo_3.jpg); }
