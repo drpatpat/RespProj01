@@ -56,3 +56,5 @@ nav a {
 }
 
 nav a:hover { color: #fff; }
+
+.clear-fix { clear: both; line-height: 1px; }
