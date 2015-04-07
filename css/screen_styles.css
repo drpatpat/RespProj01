@@ -45,3 +45,14 @@ footer { font-size: .85em; color: #9ba0bd; background-color: #575c7a; padding: 1
 .promo.one { background-image: url(../images/promo_1.jpg); }
 .promo.two { background-image: url(../images/promo_2.jpg); }
 .promo.three { background-image: url(../images/promo_3.jpg); }
+
+nav a {
+    color: #f5a06e;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+nav a:hover { color: #fff; }
